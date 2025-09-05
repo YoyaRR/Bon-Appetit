@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Distribuidora de lácteos y alimentos Bon' Appetit" />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="./Assets/img/logo.png" />
+  <title>Bon' Appetit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<script>
+  const menuToggle = document.getElementById('mobile-menu');
+  const mainNav = document.getElementById('main-nav');
+
+  menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('show');
+  });
+</script>
+
+<body>
+  <header>
+    <section>
+      <figure>
+        <img class="sello" src="./Assets/img/logo.png" alt="Logo Bon Appetit" />
+      </figure>
+      <nav class="navbar">
+  <div class="menu-toggle" id="mobile-menu">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="main-nav" id="main-nav">
+    <li class="main-nav_item"><a href="#inicio">Inicio</a></li>
+    <li class="main-nav_item"><a href="#conocenos">Conócenos</a></li>
+    <li class="main-nav_item"><a href="#productos">Productos</a></li>
+    <li class="main-nav_item"><a href="#contactenos">Contáctenos</a></li>
+    <li class="main-nav_item">
+      <a href="https://wa.me/573214784279" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+    </li>
+  </ul>
+  
+</nav>
+
+    </section>
+  </header>
+
+  <main id="inicio">
+    <section class="carrusel-fondo">
+      <br>
+      <br>
+      <h1 class="title">ELABORACIÓN PROPIA</h1>
+      <br>
+      <div class="carousel-container">
+        <div class="card-flip">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="./Assets/img/7 cueros sin fondo.png" alt="Foto queso 7 cueros Bon'Appetit">
+            </div>
+            <div class="card-back">
+
+              <h4>QUESO 7 CUEROS</h4>
+              <br>
+              <p>
+                El queso 7 cueros es un tipo de queso tradicional colombiano, originario
+                de los llanos orientales de Colombia.
+                <br>En Bon’ Appetit garantizamos su proceso de elaboración artesanal,
+                donde la cuajada se prensa y se sala en capas sucesivas, dándole una
+                textura firme y un sabor intenso.
+                <br>"Tradición que se deshoja, sabor que se disfruta.
+                <br /> ¡Queso 7 cueros Bon’ Appetit, pura herencia en tus manos!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-flip">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="./Assets/img/queso arequipe sin fondo.png" alt="Foto postre queso con requipe Bon'Appetit">
+            </div>
+            <div class="card-back">
+              <h4>QUESO CON AREQUIPE</h4>
+              <br>
+              <p>
+                La tradición colombiana de comer queso con arequipe surge de la herencia colonial y la cultura
+                campesina, donde se
+                combinó el queso fresco (típico de las zonas rurales) con el dulce de leche traído por los españoles.
+                <br> Con el tiempo, se convirtió en un postre clásico, especialmente en regiones ganaderas como
+                Antioquia y Cundinamarca.
+                <br> Hoy, es un símbolo de la gastronomía local, su sencillez y sabor lo han mantenido vigente por
+                generaciones.
+                <br>"Disfruta el contraste perfecto de la vida: un bocado dulce, un instante feliz.
+                <br>¡Bon’ Appetit, delicia a tu medida!"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-flip">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="./Assets/img/chicharron sin fondo.png" alt="Foto chicharrón de cuajada Bon'Appetit">
+            </div>
+            <div class="card-back">
+              <h4>CHICHARRÓN DE CUAJADA</h4>
+              <br>
+              <p>
+                El chicharrón de cuajada es una delicia típica de la gastronomía boyacense y cundinamarquesa (Colombia),
+                especialmente
+                en zonas rurales donde la producción de leche y queso es tradicional.
+                <br>
+                Su origen está ligado al aprovechamiento de los subproductos de la elaboración del queso, siguiendo la
+                costumbre
+                campesina de no desperdiciar nada.
+                <br>
+                "Sabores que inspiran tradición: crujiente, auténtico y lleno de nostalgia.
+                <br>
+                ¡Chicharrón de cuajada Bon’ Appetit, un
+                placer que revive tus raíces!"
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <h1 class="title">PRODUCTOS</h1>
+    <section class="catalogo" id="productos">
+      <div class="grid">
+        <div class="item">
+          <img src="./Assets/img/7 cueros 2.jpg" alt="Queso 7 cueros 200g">
+          <p>Queso 7 cueros <br>Bon' Appetit <br>200g <br>Precio: por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/llano lacteos.jpg" alt="Queso Campesino 500g">
+          <p>Queso Campesino <br>Llano Lácteos <br>500g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/tocalacteos.jpg" alt="Queso Pera 430g">
+          <p>Queso Pera Entero <br>Toca Lácteos <br>430g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/queso arequipe lateral.jpg" alt="Postre 7 Cueros">
+          <p>Postre queso 7 cueros con arequipe <br>Bon'Appetit <br>90g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/chicharron.jpg" alt="Chicharrón de Cuajada">
+          <p>Chicharrón de Cuajada <br>Bon' Appetit <br>130g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/trufas de brownie.jpg" alt="Trufas de Brownie">
+          <p>Trufas de Brownie <br>Del Cerro <br>60g <br>Precio: 000 por definir0</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/alfajor.jpg" alt="Alfajor blanco">
+          <p>Alfajor chocolate blanco <br>Del Cerro <br>85g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/danesasss.jpeg" alt="Galleta Danesa">
+          <p>Galleta Danesa <br>Del Cerro <br>48g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/arequipes.jpg" alt="Arequipe con café porciones">
+          <p>Arequipe con café 12 porciones <br>Vannia <br>50x6g <br>Precio:  por definir</p>
+        </div>
+        <div class="item">
+          <img src="./Assets/img/arequipe inividual.jpg" alt="Arequipe con café">
+          <p>Arequipe con café <br>Vannia <br>Precio:  por definir</p>
+        </div>
+    </section>
+    </section>
+    <br>
+    <section class="conocenos-section" id="conocenos">
+      <div class="conocenos-container">
+        <h1 class="title">CONÓCENOS</h1>
+
+        <div class="historia-section">
+          <h2>Historia de Bon'Appetit</h2>
+          <p>Bon' Appetit nació hace 15 años como el sueño de una familia unida por la esperanza, la perseverancia y el amor.
+            Inspirados por el deseo de superar los desafíos personales y económicos, esta familia encontró en la distribución
+            de alimentos una oportunidad para construir un futuro mejor.</p>
+
+          <p>Con humildes comienzos, iniciamos el camino vendiendo productos lácteos y alimentos esenciales en nuestra
+            comunidad, apostando siempre por la calidad, el trabajo honesto y el trato humano. Gracias a la dedicación, el esfuerzo
+            constante y el compromiso con sus clientes, Bon' Appetit comenzó a crecer, consolidándose como una empresa confiable y
+            cercana.</p>
+
+          <p>Hoy, Bon' Appetit distribuye sus productos dentro y fuera de Bogotá, alcanzando un reconocimiento creciente en
+            diferentes regiones del país. Con la mirada puesta en el futuro, la empresa trabaja por ampliar su cobertura en
+            Colombia, llevando sus productos a lugares donde aún no se conocen, y construyendo las bases para, a largo plazo,
+            exportar su calidad y sabor al mundo.</p>
+
+          <p>Bon' Appetit sigue siendo un negocio familiar con valores firmes, pero también una empresa en evolución,
+            comprometida con la nutrición, el servicio y el desarrollo del país.</p>
+        </div>
+
+        <div class="mision-vision-container">
+          <div class="mision-card">
+            <div class="mision-icon">🎯</div>
+            <h2>Misión</h2>
+            <p>Distribuir alimentos y productos lácteos de alta calidad con eficiencia, calidez y responsabilidad, contribuyendo
+              al bienestar de nuestros clientes y al desarrollo sostenible de nuestras comunidades. Bon' Appetit mantiene vivo el
+              espíritu de superación familiar con el que nació, ofreciendo un servicio cercano, confiable y humano.</p>
+          </div>
+
+          <div class="vision-card">
+            <div class="vision-icon">🔭</div>
+            <h2>Visión</h2>
+            <p>Ser la empresa distribuidora de alimentos y lácteos de referencia a nivel nacional, reconocida por su compromiso
+              humano, excelencia en el servicio y capacidad de expansión. Queremos llevar nuestros productos a todos los
+              rincones de Colombia y, en el largo plazo, cruzar fronteras para compartir la calidad de Bon' Appetit con otros países.</p>
+          </div>
+        </div>
+
+        <h2 style="text-align: center; color: #4b606a; font-size: 2.5rem; margin-bottom: 40px;">Valores Corporativos de Bon' Appetit</h2>
+
+        <div class="valores-grid">
+          <div class="valor-card">
+            <h3>❤️ Compromiso Familiar</h3>
+            <p>Nuestra esencia nace del amor, la unión y la superación familiar. Cada decisión refleja estos valores.</p>
+          </div>
+
+          <div class="valor-card">
+            <h3>⭐ Calidad y Confianza</h3>
+            <p>Ofrecemos productos seleccionados cuidadosamente, garantizando frescura, sabor y seguridad alimentaria.</p>
+          </div>
+
+          <div class="valor-card">
+            <h3>🤝 Responsabilidad Social</h3>
+            <p>Trabajamos con respeto por las comunidades, promoviendo el bienestar y apoyando el desarrollo local.</p>
+          </div>
+
+          <div class="valor-card">
+            <h3>🌱 Crecimiento con Propósito</h3>
+            <p>No solo buscamos expandirnos, sino crecer de manera sostenible, llevando nuestra historia y nuestros productos a más personas.</p>
+          </div>
+
+          <div class="valor-card">
+            <h3>💝 Servicio Humano y Cercano</h3>
+            <p>Atendemos a nuestros clientes con calidez, empatía y atención personalizada. Nos importa cada relación.</p>
+          </div>
+
+          <div class="valor-card">
+            <h3>🔥 Pasión por lo que hacemos</h3>
+            <p>Amamos lo que hacemos y lo reflejamos en cada entrega, cada alianza y cada paso hacia el futuro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <footer id="contactenos">
+    <section>
+      <h1 class="title">CONTÁCTENOS</h1>
+    </section>
+
+    <section class="contactenos">
+      <div class="footer-columns">
+
+        <div>
+          <img class="logo-footer" src="./Assets/img/logo.png" alt="Logo Bon'Appetit">
+        </div>
+
+        <div>
+          <p>
+          <h4>Líneas telefónicas:</h4>
+          321 4784279 <br> 314 2779396
+          <br>
+          <h4>PQRS:</h4> distritropical@gmail.com <br>
+          <h4>Dirección:</h4> Carrera 80 sur N 48 33 Sur
+          <br>Bogotá-Colombia
+          </p>
+        </div>
+
+        <div class="social-networks">
+          <h3>Redes Sociales</h3>
+            <div class="iconos-redes">
+    <a href="https://facebook.com/TU_PAGINA" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://tiktok.com/@TU_USUARIO" target="_blank" aria-label="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://instagram.com/TU_USUARIO" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+    <div class="creditos">
+      <small>&copy; 2025 <b>Gloria Ramírez</b> -todos lo derechos reservados</small>
+    </div>
+  </footer>
+  <a href="https://wa.me/573214784279" class="whatsapp-float" target="_blank" aria-label="Chatea por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+</body>
+
+</html>
