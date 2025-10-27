@@ -108,7 +108,7 @@ header section {
   background-position: center;
   background-repeat: no-repeat;
   padding: 70px 30px;
-  padding-top: 190px;
+  padding-top: 10px;
   position: relative;
   z-index: 0;
 }
@@ -664,7 +664,7 @@ header section {
   /* CARRUSEL - CORRECCIÓN PRINCIPAL */
   .carrusel-fondo {
     padding: 40px 15px;
-    padding-top: 120px;
+    padding-top: 10px;
   }
 
   .carousel-container {
