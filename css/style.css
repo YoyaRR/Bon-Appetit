@@ -211,7 +211,7 @@ header section {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 8px;
-  background-color: #f9f6f6;
+  background-color: #f9f6f600;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
