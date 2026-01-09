@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /*  HEADER Y NAVEGACIÓN  */
 header section {
   display: flex;
@@ -72,6 +73,14 @@ header section {
 
 .menu-toggle {
   display: none;
+}
+body {
+  background-image: url("../Assets/img/logo_verde.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
 }
 
 /* Estilos específicos para móvil */
@@ -236,7 +245,7 @@ header section {
 
 /*  CONÓCENOS */
 .conocenos-section {
-  background-color: #f2ffe3;
+  background-color: #f2ffe300;
   padding: 80px 20px;
   position: relative;
 }
