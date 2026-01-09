@@ -425,7 +425,7 @@ body {
 
 /* ===== FOOTER ===== */
 .contactenos {
-  background-color: #ff726a;
+  background-color: #ff726a54;
 }
 
 .footer-columns {
@@ -434,7 +434,7 @@ body {
   justify-content: space-between;
   text-align: center;
   padding: 30px;
-  background-color: #ff726a;
+  background-color: #ff726a54;
 }
 
 .logo-footer {
