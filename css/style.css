@@ -5,10 +5,9 @@
 }
 
 html {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
 }
-
 
 /*  HEADER Y NAVEGACIÓN  */
 header section {
@@ -112,7 +111,6 @@ body {
 
 /* CARRUSEL  */
 .carrusel-fondo {
-  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -221,7 +219,9 @@ body {
   padding: 10px;
   border-radius: 8px;
   background-color: #f9f6f600;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .catalogo .item:hover {
@@ -251,13 +251,13 @@ body {
 }
 
 .conocenos-section:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../Assets/img/logo_verde.jpg');
+  background-image: url("../Assets/img/logo_verde.jpg");
   background-size: 120px;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -279,7 +279,9 @@ body {
   margin-bottom: 40px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-left: 5px solid #4b606a;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .historia-section:hover {
@@ -296,7 +298,7 @@ body {
 }
 
 .historia-section h2::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -328,7 +330,9 @@ body {
   border-radius: 20px;
   padding: 35px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   position: relative;
 }
 
@@ -349,7 +353,7 @@ body {
 
 .mision-card h2::after,
 .vision-card h2::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -395,7 +399,7 @@ body {
 }
 
 .valor-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -470,7 +474,9 @@ body {
 .iconos-redes a {
   color: #365b6d;
   font-size: 24px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .iconos-redes a:hover {
@@ -483,7 +489,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25D366;
+  background-color: #25d366;
   color: white;
   font-size: 28px;
   padding: 15px;
@@ -491,7 +497,9 @@ body {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
   text-decoration: none;
 }
 
@@ -538,55 +546,55 @@ body {
   }
 
   /* Estilos específicos para móvil */
-/* Estilos móviles */
-@media (max-width: 768px) {
-  header {
-    overflow-x: hidden;
+  /* Estilos móviles */
+  @media (max-width: 768px) {
+    header {
+      overflow-x: hidden;
+    }
+
+    .navbar {
+      width: 100%;
+    }
+
+    .main-nav {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 0;
+      background-color: #ff726a;
+      flex-direction: column;
+      text-align: center;
+      gap: 16px;
+      z-index: -1;
+    }
+
+    .main-nav.show {
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+      z-index: 2000;
+      padding: 10px 0;
+    }
   }
 
-  .navbar {
-    width: 100%;
+  /* Estilos desktop */
+  @media (min-width: 769px) {
+    .main-nav {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      background-color: transparent;
+      padding: 10px;
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+    }
   }
-  
-  .main-nav {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 0;
-    background-color: #ff726a;
-    flex-direction: column;
-    text-align: center;
-    gap: 16px;
-    z-index: -1;
-  }
-
-  .main-nav.show {
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-    z-index: 2000;
-    padding: 10px 0;
-  }
-}
-
-/* Estilos desktop */
-@media (min-width: 769px) {
-  .main-nav {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    background-color: transparent;
-    padding: 10px;
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-  }
-}
 
   /* Mostrar el icono hamburguesa */
   .menu-toggle {
@@ -632,13 +640,15 @@ body {
     right: 0;
     width: 100%;
     background-color: #ff726a;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     opacity: 1;
     visibility: visible;
     z-index: 9999;
     transform: translateY(0);
-    transition: transform 0.3s ease, opacity 0.2s ease;
+    transition:
+      transform 0.3s ease,
+      opacity 0.2s ease;
   }
 
   .main-nav_item {
@@ -653,7 +663,7 @@ body {
   }
 
   .main-nav_item a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     text-decoration: none;
   }
 
@@ -784,5 +794,200 @@ body {
   .card-back p {
     font-size: 0.9rem;
     padding: 10px;
+  }
+}
+
+/* ===== CAROUSEL / GALERÍA ===== */
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 50px 50px;
+  filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.1));
+}
+
+.carousel__viewport {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(75, 96, 106, 0.2);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.carousel__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.carousel__content img {
+  max-width: 100%;
+  max-height: 280px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.carousel__caption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4b606a;
+  font-family: inherit;
+}
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel__snapper .carousel__prev,
+.carousel__snapper .carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 114, 106, 0.9);
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  z-index: 10;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.carousel__snapper .carousel__prev:hover,
+.carousel__snapper .carousel__next:hover {
+  background: #ff726a;
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 4px 15px rgba(255, 114, 106, 0.4);
+}
+
+.carousel__prev {
+  left: 15px;
+}
+
+.carousel__next {
+  right: 15px;
+  left: auto;
+}
+
+.carousel__navigation {
+  margin-top: 20px;
+}
+
+.carousel__navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel__navigation-button {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #6c9286;
+  opacity: 0.5;
+  text-indent: -9999px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.carousel__navigation-button:hover {
+  opacity: 0.8;
+  background: #4b606a;
+}
+
+.carousel:has(#carousel__slide1:target) .carousel__navigation-list li:nth-child(1) .carousel__navigation-button,
+.carousel:has(#carousel__slide2:target) .carousel__navigation-list li:nth-child(2) .carousel__navigation-button,
+.carousel:has(#carousel__slide3:target) .carousel__navigation-list li:nth-child(3) .carousel__navigation-button,
+.carousel:has(#carousel__slide4:target) .carousel__navigation-list li:nth-child(4) .carousel__navigation-button {
+  opacity: 1;
+  background: #4b606a;
+  transform: scale(1.15);
+}
+
+/* First slide active by default when no hash in URL */
+.carousel:not(:has([id^="carousel__slide"]:target)) .carousel__navigation-list li:first-child .carousel__navigation-button {
+  opacity: 1;
+  background: #4b606a;
+}
+
+/* Carousel responsive */
+@media (max-width: 768px) {
+  .carousel {
+    padding: 0 15px 40px;
+    margin-bottom: 40px;
+  }
+
+  .carousel__slide {
+    min-height: 320px;
+    padding: 20px;
+  }
+
+  .carousel__content img {
+    max-height: 220px;
+  }
+
+  .carousel__snapper .carousel__prev,
+  .carousel__snapper .carousel__next {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .carousel__prev {
+    left: 8px;
+  }
+
+  .carousel__next {
+    right: 8px;
   }
 }

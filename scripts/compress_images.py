@@ -74,7 +74,7 @@ def optimize_image_for_web(input_path, output_path, max_size=(1200, 1200), quali
 
 # Convert a JPG to a high-quality WebP (recommended for web photos)
 optimize_image_for_web(
-    input_path="C:/Users/USER/Escritorio/Bon Appetit/Assets/img/compressed30.png",
-    output_path="C:/Users/USER/Escritorio/Bon Appetit/Assets/img/compressed40.webp", 
+    input_path="C:/Users/USUARIO/Desktop/Bon Appetit/FOTOS_LILIANA/ESCOGIDAS/IMG_4764.jpg",
+    output_path="C:/Users/USUARIO/Desktop/Bon Appetit/Bon Appetit/Assets/img/postre_arequipe_mora.webp", 
     quality=85 
 )
